@@ -66,5 +66,11 @@ To install dependencies and build package(s)
 
 If you look in `my-new-project.cabal` you'll see that `protolude` is one of the build depends in library, executable, and test-suite. Note: this is a stack generated file so do not edit it directly, it will get overwritten.
 
+## Linting
+
+Install hlint
+
+    stack install hlint
+
 ## Resources
 - FP Complete (How to Build with Stack)[https://www.fpcomplete.com/haskell/tutorial/stack-build/]
